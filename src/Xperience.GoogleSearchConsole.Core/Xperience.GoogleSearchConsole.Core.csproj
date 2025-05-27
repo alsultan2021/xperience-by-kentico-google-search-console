@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <AssemblyName>Xperience.GoogleSearchConsole.Core</AssemblyName>
+        <RootNamespace>Xperience.GoogleSearchConsole.Core</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Kentico.Xperience.Admin" />
+        <PackageReference Include="Kentico.Xperience.WebApp" />
+        <PackageReference Include="kentico.xperience.azurestorage" />
+        <PackageReference Include="kentico.xperience.imageprocessing" />
+    </ItemGroup>
+</Project>
