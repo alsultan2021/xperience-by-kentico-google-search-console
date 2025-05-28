@@ -4,9 +4,9 @@
     "net8.0": {
       "SonarAnalyzer.CSharp": {
         "type": "Direct",
-        "requested": "[9.32.0.97167, )",
-        "resolved": "9.32.0.97167",
-        "contentHash": "Yxk86RV+8ynJpUhku1Yw2hITFmnmXKkXJ73cIFSy85ol5SnWREQg9RuTyV8nI7V7+pyLKpCfRmD7P0widsgjkg=="
+        "requested": "[10.10.0.116381, )",
+        "resolved": "10.10.0.116381",
+        "contentHash": "HkJuI8dBE64BF7ySlfN8t/lQ91E/pgiQPvOS51lIKKy3/IJiwHHqQ4dkI6gixDkKBDK7lImvvNa0ECH+I0PqmA=="
       },
       "AngleSharp": {
         "type": "Transitive",
@@ -88,6 +88,32 @@
         "type": "Transitive",
         "resolved": "2.9.1",
         "contentHash": "OE0sl1/sQ37bjVsPKKtwQlWDgqaxWgtme3xZz7JssWUzg5JpMIyHgCTY9MVMxOg48fJ1AgGT3tgdH5m/kQ5xhA=="
+      },
+      "Google.Apis": {
+        "type": "Transitive",
+        "resolved": "1.69.0",
+        "contentHash": "1TfjsXFejwIf7iWaE7A0FbnOEsk8FPlbdFAt1r+I8aSMQfLLdSVWCLdZz6TzuWVwoCGEuJUHTZ/FXdptdU3qWw==",
+        "dependencies": {
+          "Google.Apis.Core": "1.69.0"
+        }
+      },
+      "Google.Apis.Auth": {
+        "type": "Transitive",
+        "resolved": "1.69.0",
+        "contentHash": "ar07yxn/s41jdqQ3sMh8EAehiSvXQ9yE1MS4McmZINeSWvolnLHmIZ9Yxj4tHVIYYz0c7H/lpToVqm7C2aYx9g==",
+        "dependencies": {
+          "Google.Apis": "1.69.0",
+          "Google.Apis.Core": "1.69.0",
+          "System.Management": "7.0.2"
+        }
+      },
+      "Google.Apis.Core": {
+        "type": "Transitive",
+        "resolved": "1.69.0",
+        "contentHash": "SXUcurNUPxYMtOnawvB2Av18VrPBC9W7So9q9ikmXIXLGiv4RX7Zbu4kc+8PbwTdd8wLt54r0PBGOT5RaKoTjQ==",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        }
       },
       "GreenDonut": {
         "type": "Transitive",
@@ -927,6 +953,14 @@
         "resolved": "8.0.0",
         "contentHash": "FHNOatmUq0sqJOkTx+UF/9YK1f180cnW5FVqnQMvYUN0elp6wFzbtPSiqbo1/ru8ICp43JM1i7kKkk6GsNGHlA=="
       },
+      "System.Management": {
+        "type": "Transitive",
+        "resolved": "7.0.2",
+        "contentHash": "/qEUN91mP/MUQmJnM5y5BdT7ZoPuVrtxnFlbJ8a3kBJGhe2wCzBfnPFtK2wTtEEcf3DMGR9J00GZZfg6HRI6yA==",
+        "dependencies": {
+          "System.CodeDom": "7.0.0"
+        }
+      },
       "System.Memory": {
         "type": "Transitive",
         "resolved": "4.5.4",
@@ -1005,10 +1039,32 @@
       "xperience.googlesearchconsole.core": {
         "type": "Project",
         "dependencies": {
+          "Google.Apis.Indexing.v3": "[1.68.0.3191, )",
+          "Google.Apis.SearchConsole.v1": "[1.69.0.3751, )",
           "Kentico.Xperience.Admin": "[30.5.1, )",
           "Kentico.Xperience.WebApp": "[30.5.1, )",
           "kentico.xperience.azurestorage": "[30.5.1, )",
           "kentico.xperience.imageprocessing": "[30.5.1, )"
+        }
+      },
+      "Google.Apis.Indexing.v3": {
+        "type": "CentralTransitive",
+        "requested": "[1.68.0.3191, )",
+        "resolved": "1.68.0.3191",
+        "contentHash": "jCTR7U7XTAc96B4Sw1B/Z8DU4+jJY1vkzAv96lRYm+Ib9CiYJrDND3Hp8pUane3dU4wcGWeNHcuswgnRkkpj6g==",
+        "dependencies": {
+          "Google.Apis": "1.68.0",
+          "Google.Apis.Auth": "1.68.0"
+        }
+      },
+      "Google.Apis.SearchConsole.v1": {
+        "type": "CentralTransitive",
+        "requested": "[1.69.0.3751, )",
+        "resolved": "1.69.0.3751",
+        "contentHash": "w+vYZeG9JHpYdUnPkwJMhPcwUIMFzAwsTZoRxkxxJAb0/+8lefp2SlhIDlS55kqPrD8h6WF3A0nd/Ng/rdbsNA==",
+        "dependencies": {
+          "Google.Apis": "1.69.0",
+          "Google.Apis.Auth": "1.69.0"
         }
       },
       "Kentico.Xperience.Admin": {

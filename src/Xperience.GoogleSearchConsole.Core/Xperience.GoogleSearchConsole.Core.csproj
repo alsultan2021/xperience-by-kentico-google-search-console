@@ -8,9 +8,17 @@
         <RootNamespace>Xperience.GoogleSearchConsole.Core</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
+        <PackageReference Include="Google.Apis.Indexing.v3" />
+        <PackageReference Include="Google.Apis.SearchConsole.v1" />
         <PackageReference Include="Kentico.Xperience.Admin" />
         <PackageReference Include="Kentico.Xperience.WebApp" />
         <PackageReference Include="kentico.xperience.azurestorage" />
         <PackageReference Include="kentico.xperience.imageprocessing" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Update="SonarAnalyzer.CSharp">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
     </ItemGroup>
 </Project>

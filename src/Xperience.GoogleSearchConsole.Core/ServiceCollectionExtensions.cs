@@ -1,5 +1,5 @@
 using Microsoft.Extensions.DependencyInjection;
-// Add this line or correct namespace for ISearchConsoleService
+
 using Xperience.GoogleSearchConsole.Core.Services;
 
 namespace Xperience.GoogleSearchConsole.Core;

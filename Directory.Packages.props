@@ -13,6 +13,6 @@
     <!-- Google Search Console + Indexing client libraries -->
     <PackageVersion Include="Google.Apis.SearchConsole.v1" Version="1.69.0.3751" />
     <PackageVersion Include="Google.Apis.Indexing.v3" Version="1.68.0.3191" />
-    <PackageVersion Include="SonarAnalyzer.CSharp" Version="9.32.0.97167" />
+    <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.10.0.116381" />
   </ItemGroup>
 </Project>

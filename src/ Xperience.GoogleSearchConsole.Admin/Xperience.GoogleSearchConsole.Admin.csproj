@@ -4,4 +4,9 @@
         <ProjectReference Include="..\Xperience.GoogleSearchConsole.Core\Xperience.GoogleSearchConsole.Core.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Actions\" />
+      <Folder Include="Admin\" />
+    </ItemGroup>
+
 </Project>
